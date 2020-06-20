@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+    background-image: url(../images/beij.png);
+
+}
+
+.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/* 导航栏  背景图片以及设置高度*/
+div#header {
+    background-image: url(../images/tim.jpg);
+    height: 125px;
+
+
+}
+
+/* 绝对布局 距离顶部的距离 logo内容 字体 */
+.logo-text {
+    margin-top: 10px;
+    position: absolute;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+
+}
+
+.logo-text h2 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 21px;
+    height: 21px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+
+}
+
+.logo-text h3 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+/* 导航栏  背景颜色 宽度 background-color: rgb(90, 153, 204);  */
+#nav {
+
+    height: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(90, 153, 204);
+
+}
+
+#nav .inner {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* 导航栏  部分和header重叠 ,导航栏字体大小*/
+.menu {
+
+    margin: -48px 0 25px 0;
+    font-size: 19px;
+
+}
+/* 导航栏  无样式*/
+#nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+/* 导航栏  部分水平排列以及间距  */
+#nav li {
+    float: left;
+    text-align: center;
+    padding: 12px 40px 12px 40px;
+   
+}
+#nav a:link,
+a:visited {
+    color: rgb(19, 207, 231);
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: rgb(77, 163, 243);
+    text-decoration: none;
+
+}
+/* 个人名片 布局右边  */
+
+.card {
+    position: relative;
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* 个人名片 标题字体格式  */
+.card-header {
+
+    padding: .75rem 1.25rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+
+}
+
+.card-body {
+    text-align: center;
+    padding: 1.25rem;
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+}
+
+.user-sign {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+    margin: 1em 0;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* 个人名片 具体信息  */
+.item {
+    position: relative;
+    display: block;
+
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+/* 主体内容区  */
+.cont {
+    position: relative;
+    float: left;
+    width: 750px;
+    margin-top: 20px;
+    padding-left: 3px;
+
+}
+
+
+
+.article {
+
+    position: relative;
+    margin-bottom: 20px;
+    width: 700px;
+    padding: 15px 25px;
+    border: 1px dotted #ddd;
+    height: 500px;
+    background-color: #fff;
+
+    box-shadow: 1px 1px 2px 1px #d7e4ed;
+
+
+}
+
+
+
+.title {
+    line-height: 1em;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: rgb(169, 214, 240);
+}
+
+
+p {
+    text-indent: 10px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 26px;
+    font-size: 16px;
+    color: #93a0b8;
+}
+
+
+
+/* 页脚区  绝对布局 背景颜色字体颜色 */
+
+#footer {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #93a0b8;
+    color: #1e1f20;
+}
+.foot {
+    
+    padding-right: 25px;
+    padding-left:25px;
+    padding-top: 7px;
+}

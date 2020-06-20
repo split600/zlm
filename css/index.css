@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-image: url(../images/beij.png);
+
+}
+
+
+/* 凝胶布局*/
+.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 导航栏  背景图片以及设置高度 */
+div#header {
+    background-image: url(../images/tim.jpg);
+    height: 125px;
+}
+
+/* 绝对布局 距离顶部的距离  字体 */
+.logo-text {
+    
+    position: absolute;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+
+}
+/* logo   text 的内容 字体颜色 大小 */
+.logo-text h2 {   
+    font-size: 21px;
+    height: 21px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right : 20px;
+    color: rgb(255, 255, 255);
+}
+/* logo   text 的内容 字体颜色 大小 */
+.logo-text h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right : 20px;
+}
+
+/* 导航栏  背景颜色 宽度 background-color: rgb(90, 153, 204);  */
+#nav {
+
+    height: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(90, 153, 204);
+
+}
+
+#nav .inner {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* 导航栏  部分和header重叠 ,导航栏字体大小*/
+.menu {
+
+    margin: -48px 0 25px 0;
+    font-size: 19px;
+
+}
+/* 导航栏  无样式*/
+#nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+/* 导航栏  部分水平排列以及间距  */
+#nav li {
+    float: left;
+    text-align: center;
+    padding: 12px 40px 12px 40px;
+   
+}
+#nav a:link,
+a:visited {
+    color: rgb(19, 207, 231);
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: rgb(77, 163, 243);
+    text-decoration: none;
+
+}
+
+
+/* 个人名片 浮动布局右边 宽度，边框样式 背景颜色等  background: #fff; */
+
+.card {
+    position: relative;
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+ 
+}
+/* 个人名片 字体居中，字体大小 边框样式  标题字体格式  */
+.card-header {
+    padding: .75rem 1.25rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+
+}
+/* 个人名片 内容字体格式  */
+.card-body {
+    text-align: center;
+    padding: 1.25rem;
+    display: inline-block;
+    font: normal normal normal 12px/1 FontAwesome;
+}
+/* 个人名片 口号字体格式  斜体 */
+ .user-sign {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+    margin: 1em 0;
+    font-weight: 200;
+    font-style: italic;
+ }
+
+/* 个人名片 具体信息  */
+.item {
+    position: relative;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 2px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+
+/* 主体内容区  浮动布局*/
+.cont {
+    position: relative;
+    float: left;
+    width: 750px;
+    margin-top: 20px;
+    padding-left: 3px;
+    
+}
+
+/* 主体内容区  文章标题格式*/
+.article-list .article-list-title {
+    background: #fff;
+    padding: 10px 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    font-size: 24px;
+}
+/* 主体内容区  文章格式背景颜色  边框  宽度等*/
+
+.article {
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+
+}
+/* 主体内容区  文章格式题目字体间距*/
+
+.article .title {
+    line-height: 1em;
+}
+
+p {  
+    text-indent: 20px;
+    font-size: 14px;
+    line-height: 20px; 
+}
+/* 主体内容区  文章内容字体颜色大小等*/
+.article .info {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+
+/* 页脚区  绝对布局 背景颜色字体颜色 */
+
+#footer {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #93a0b8;
+    color: #1e1f20;
+}
+.foot {
+    
+    padding-right: 25px;
+    padding-left:25px;
+    padding-top: 7px;
+}

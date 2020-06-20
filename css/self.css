@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+   text-indent: 12px;
+   
+  background-image: url(../images/beij.png);
+
+}
+
+.inner {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+/* 导航栏  背景图片以及设置高度*/
+div#header {
+    background-image: url(../images/tim.jpg);
+    height: 125px;
+
+
+}
+
+/* 绝对布局 距离顶部的距离 logo内容 字体 */
+.logo-text {
+    margin-top: 10px;
+    position: absolute;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+
+}
+
+.logo-text h2 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 21px;
+    height: 21px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+
+}
+
+.logo-text h3 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+/* 导航栏  背景颜色 宽度 background-color: rgb(90, 153, 204);  */
+#nav {
+
+    height: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(90, 153, 204);
+
+}
+
+#nav .inner {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* 导航栏  部分和header重叠 ,导航栏字体大小*/
+.menu {
+
+    margin: -48px 0 25px 0;
+    font-size: 19px;
+
+}
+/* 导航栏  无样式*/
+#nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+/* 导航栏  部分水平排列以及间距  */
+#nav li {
+    float: left;
+    text-align: center;
+    padding: 12px 20px 12px 40px;
+   
+}
+#nav a:link,
+a:visited {
+    color: rgb(19, 207, 231);
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: rgb(77, 163, 243);
+    text-decoration: none;
+
+}
+  
+     /* 主体内容    */
+  #container .inner {
+  
+    width: 1099px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+    /* 左侧导航栏    */
+    .col_menu {
+        width: 200px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;  
+      }
+
+  .listcolumn .column {
+    display: block;
+  
+  }
+  
+  .listcolumn .column a {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+   
+  }
+  
+  .listcolumn .column a:hover,
+  .listcolumn .column a.selected {
+    color: #fff;
+    background: gray;
+  }
+  
+  .listcolumn .column a .column-name {
+  
+    display: inline-block;
+    padding: 0px;
+    line-height: 22px !important;
+    margin: 10px;
+  
+  }
+  
+
+  
+  .col_news {
+    width: 700px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    min-height: 600px;
+  }
+  
+  .col_news_head {
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    padding-bottom: 3px;
+    
+  }
+  
+    
+  .td {
+    border: solid #fff;
+    border-width: 0px 1px 1px 0px;
+    padding: 2px 10px;
+    width:20px;
+  }
+  
+  .table {
+      margin-top: 5px;
+    border: solid #fff;
+    border-width: 1px 0px 0px 1px;
+    background: #f7f5f0;
+  
+  }
+  
+
+
+  
+  div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  #footer {
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #93a0b8;
+    color: #1e1f20;
+}
+.foot {
+    
+    padding-right: 25px;
+    padding-left:25px;
+    padding-top: 7px;
+}
